@@ -1,0 +1,44 @@
+@use '_commons' as c;
+
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: c.$color1;
+    color: white;
+    justify-content: center;
+    height: max-content;
+    padding-top: 10px;
+    text-align: center;
+    
+    a{
+        list-style: none;
+        text-decoration: none;
+            &:hover{
+            color: c.$color-ye;
+        }
+    }
+    .footlist{
+        display: inline;
+        text-align: center;
+        line-height: 90px;
+        margin: 15px;
+    }
+
+    .fa-instagram{
+        font-size: 30px ;
+    }
+    .fa-facebook{
+        font-size: 30px;
+    }
+    .fa-envelope {
+        font-size: 30px;
+    }
+    .fa-whatsapp {
+        font-size: 30px;
+    }
+    
+}

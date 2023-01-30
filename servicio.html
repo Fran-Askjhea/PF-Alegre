@@ -6,98 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADN Producciones</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/main.css" />
+    <script src="https://kit.fontawesome.com/627ac988d6.js" crossorigin="anonymous"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
    <!-- Logo/Cabecera -->
     <header>
-<div id="logo"
         
-    </div> 
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+    
+            <img class="logotipo" src="assets/img/WhatsApp Image 2022-11-220 at 5.27.01 PM.jpeg" alt="Logitpo menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light link-warning" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link text-light link-warning" href="servicio.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light link-warning" href="quienessomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light link-warning" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light link-warning" href="novedades.html">Novedades </a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         
-        <nav>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-            
-                    <img class="logotipo" src="assets/img/WhatsApp Image 2022-11-220 at 5.27.01 PM.jpeg" alt="Logitpo menu">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="servicio.html" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Servicios
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Sonido e iluminación</a></li>
-                                    <li><a class="dropdown-item" href="#">Fotografía</a></li>
-                                    <li><a class="dropdown-item" href="#">Robot Led</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="novedades.html">Novedades</a>
-                            </li>
-                        </ul>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </header>
 
 
 
-    <section>
+    <main class="container">
 
         <h1> Servicios disponibles </h1>
 
-        <table border="1">
-            <!-- Cabecera de tabla / para poner comentarios invisible CTRL + K + C -->
-            <tr>
-               <th>Nombre del servicio</th>
-               <th>Categoria</th>
-               
-            </tr>
-            <tr>
-                <td>Sonido e Iluminación</td> 
-                <td>Musica</td>
-                
-            </tr>
-            <tr>
-                <td>Fotografía y filmación</td>
-                <td>Foto y video</td>
-                
-            </tr>
-            <tr>
-                <td>Robot led</td>
-                <td>Show de entretenimiento</td>
-                
-            </tr>
-
-        </table>
+        <div class="servicio_container">
+        <div class="servicio">
+            <img src="assets/img/sonido.webp" alt="Sonido e iluminacion">
+            <h3>Sonido e iluminacion</h3>
+            <p>Servicio de sonido e iluminación acompañado de sonidistas calificados para el buen trabajo</p>
+        </div>
+        <div class="servicio">
+            <img src="assets/img/Robot led.png" alt="Robot Led">
+            <h3>Show robot led</h3>
+            <p>Servicio de show robot led con efectos de chispas frias y bengalas de colores para levantar la fiesta</p>
+        </div>
+        <div class="servicio">
+            <img src="assets/img/Fotografia.png" alt="Fotografia">
+            <h3>Fotografía y filmación</h3>
+            <p>Servicio de foto y video para que tus momentos importantes estén guardados para la historia</p>
+        </div>
+    </div>
         
+        <div class="division">
+            <h2>¿PLANEANDO UN EVENTO?</h2>
 
-    </section>
-<h1>¿PLANEANDO UN EVENTO?</h1>
-<a class="boton" href="contacto.html">Contactanos</a>
-<a class="boton" href="novedades.html">Nuestros eventos</a>
+            <div class="boton_container">
+                <a class="boton" href="contacto.html">Contactanos</a>
 
-    <footer>
-        <p>Logo facebook // Logo Instagram</p>
-    </footer>
+
+                <a class="boton" href="novedades.html">Nuestros eventos</a>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="bg-darky text-white text-center d-block">
+        
+          <div class="row">
+            <div class="col-lg-4 col-md-4 mb-md-0">
+              <h5 class="mb-3 mt-2">Síguenos en nuestras redes de Sonido!</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="footlist">
+                  <a href="" class="fa fa-facebook" alt="facebook"></a>
+                </li>
+                <li class="footlist">
+                  <a href="" class="fa fa-instagram" alt="instagram"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-md-0">
+              <h5 class="mb-3 mt-2">Nuestras redes de Fotografia!</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="footlist">
+                  <a href="" class="fab fa-facebook" alt="facebook-foto"></a>
+                </li>
+                <li class="footlist">
+                    <a href="" class="fa fa-instagram" alt="instagram-foto"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-md-0">
+              <h5 class="mb-3 mt-2">Contacto/Soporte</h5>
+              <ul class="list-unstyled">
+                <li class="footlist">
+                  <a href="https://wa.me/5493424407773" class="fa fa-whatsapp" alt="numero de contacto"></a>
+                </li>
+                <li class="footlist">
+                  <a href="mailto:franciscoalegre775@gmail.com" class="fa fa-envelope" alt="email de contacto"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+        <small class="text-center">&copy; 2023 <b>ADN SONIDO</b> - Todos los derechos reservados.</small>
+      
+</footer>
 </body>
 </html>
